@@ -11,6 +11,8 @@ const {
   asyncHandler,
 } = require("./middleware/errorHandler");
 
+const itemsRoutes = require("./routers/item-routes")
+
 const {
   urlVersioning,
   headerVersioning,
@@ -28,8 +30,9 @@ app.use(configureCors());
 app.use(createBasicRateLimiter(100, 15 * 60 * 1000));
 app.use(express.json());
 
+app.use(urlVersioning("v1"));
 app.use(globalErrorhandler);
-app.use("/api/v1", urlVersioning("v1"));
+app.use("/api/v2", itemsRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is now running on port ${PORT}`);

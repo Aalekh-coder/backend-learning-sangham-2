@@ -13,7 +13,7 @@ const items = [
 router.get(
   "/items",
   asyncHandler(async (req, res) => {
-    res.json(items);
+  return  res.json(items);
   })
 );
 
