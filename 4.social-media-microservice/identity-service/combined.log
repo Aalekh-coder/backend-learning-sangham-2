@@ -1,0 +1,86 @@
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T06:20:57.527Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T06:20:58.400Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T06:26:49.939Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T06:26:49.941Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T06:26:49.968Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T06:26:49.977Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T06:28:27.420Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T06:28:28.077Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T06:28:30.299Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T06:28:30.301Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T06:28:30.317Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T06:28:30.322Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:12:00.321Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:12:05.207Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:12:05.963Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:12:08.028Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:12:08.030Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:12:08.047Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:12:08.056Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:12:32.456Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:12:33.073Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:12:37.997Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:12:37.998Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:12:38.008Z"}
+{"buffer":{"data":[104,166,198,230,222,74,234,107,128,12,237,77],"type":"Buffer"},"level":"warn","message":"User saved  successfully","service":"identity-service","timestamp":"2025-08-21T07:12:38.323Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:12:38.337Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:14:42.117Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:14:42.819Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:16:22.962Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:16:22.965Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:16:22.992Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-08-21T07:16:23.079Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:17:08.182Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:17:08.183Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:17:08.187Z"}
+{"buffer":{"data":[104,166,199,244,43,196,103,74,51,131,253,237],"type":"Buffer"},"level":"warn","message":"User saved  successfully","service":"identity-service","timestamp":"2025-08-21T07:17:08.476Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:17:08.486Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:17:37.958Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:17:37.959Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:17:37.962Z"}
+{"buffer":{"data":[104,166,200,18,43,196,103,74,51,131,253,241],"type":"Buffer"},"level":"warn","message":"User saved  successfully","service":"identity-service","timestamp":"2025-08-21T07:17:38.276Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:17:38.283Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:21:27.758Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:21:28.489Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:23:27.224Z"}
+{"level":"info","message":"Received body undefined ","service":"identity-service","timestamp":"2025-08-21T07:23:27.225Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:23:27.239Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:23:27.248Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:23:50.688Z"}
+{"level":"info","message":"Received body undefined ","service":"identity-service","timestamp":"2025-08-21T07:23:50.696Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:23:50.703Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:23:50.715Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:24:27.500Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:24:27.501Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:24:27.505Z"}
+{"buffer":{"data":[104,166,201,171,90,225,32,208,111,194,214,130],"type":"Buffer"},"level":"warn","message":"User saved  successfully","service":"identity-service","timestamp":"2025-08-21T07:24:27.814Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:24:27.823Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:25:43.316Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:25:43.916Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:26:41.602Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:26:42.375Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:26:47.853Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:26:47.854Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:26:47.867Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-08-21T07:26:47.945Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:27:09.596Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:27:09.597Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:27:09.602Z"}
+{"buffer":{"data":[104,166,202,77,180,101,123,110,111,175,138,79],"type":"Buffer"},"level":"warn","message":"User saved  successfully","service":"identity-service","timestamp":"2025-08-21T07:27:09.927Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-21T07:27:09.940Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:27:52.903Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:27:53.502Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:28:01.756Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:28:02.346Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:30:07.110Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:30:07.818Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-21T07:30:14.298Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-21T07:30:14.916Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:30:52.790Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:30:52.792Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:30:52.808Z"}
+{"buffer":{"data":[104,166,203,44,14,163,127,61,26,134,134,226],"type":"Buffer"},"level":"warn","message":"User saved  successfully","service":"identity-service","timestamp":"2025-08-21T07:30:53.290Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-21T07:33:34.979Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-21T07:33:34.980Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-21T07:33:34.984Z"}
+{"0":"\"","1":"p","10":" ","11":"l","12":"e","13":"n","14":"g","15":"t","16":"h","17":" ","18":"m","19":"u","2":"a","20":"s","21":"t","22":" ","23":"b","24":"e","25":" ","26":"a","27":"t","28":" ","29":"l","3":"s","30":"e","31":"a","32":"s","33":"t","34":" ","35":"6","36":" ","37":"c","38":"h","39":"a","4":"s","40":"r","41":"a","42":"c","43":"t","44":"e","45":"r","46":"s","47":" ","48":"l","49":"o","5":"w","50":"n","51":"g","6":"o","7":"r","8":"d","9":"\"","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-08-21T07:33:34.990Z"}

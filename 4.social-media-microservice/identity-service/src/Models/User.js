@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    createAt: {
+    createdAt: {
       type: Date,
       default: Date.now,
     },
@@ -47,7 +47,7 @@ userSchema.method.comparePassword = async function name(candidatePassword) {
     }
 }
 
-userSchema.index({username:text});
+userSchema.index({username:"text"});
 
 const User = mongoose.model("User",userSchema);
 module.exports = User

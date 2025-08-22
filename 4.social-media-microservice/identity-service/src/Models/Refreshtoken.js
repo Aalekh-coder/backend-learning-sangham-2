@@ -12,7 +12,7 @@ const refreshTokenSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    expireAt: {
+    expiresAt: {
       type: Date,
       required: true,
     },
@@ -20,7 +20,7 @@ const refreshTokenSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-refreshTokenSchema.index({ expireAt: 1 }, { expireAfterSeconds: 0 });
+refreshTokenSchema.index({ expiresAt: 1 }, { expireAfterSeconds: 0 });
 
 const RefreshToken = mongoose.model("RefreshToken", refreshTokenSchema);
 

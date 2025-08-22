@@ -5,7 +5,7 @@ const RefreshToken = require("../Models/Refreshtoken");
 const generateToken = async (user) => {
   const accessToken = jwt.sign(
     {
-      userId: user?.id,
+      userId: user?._id,
       username: user?.username,
     },
     process.env.JWT_SECRET,
@@ -13,13 +13,13 @@ const generateToken = async (user) => {
   );
 
   const refreshToken = crypto.randomBytes(40).toString("hex");
-  const expireAt = new Date();
-  expireAt.setDate(expireAt.getDate() + 7);
+  const expiresAt = new Date();
+  expiresAt.setDate(expiresAt.getDate() + 7); // refresh token expires in 7 days
 
   await RefreshToken.create({
     token:refreshToken,
     user:user?._id,
-    expireAt
+    expiresAt
   })
   return  {accessToken,refreshToken}
 };
