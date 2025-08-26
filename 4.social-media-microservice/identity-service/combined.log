@@ -929,3 +929,7 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-25T03:13:53.990Z"}
 {"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-25T03:13:53.990Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-25T03:13:53.992Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-26T05:44:22.919Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-26T05:44:23.781Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-26T06:10:08.736Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-26T06:10:09.492Z"}

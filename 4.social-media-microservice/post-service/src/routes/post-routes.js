@@ -1,4 +1,3 @@
-const express = require("express");
 const { createPost } = require("../controller/postController");
 const express = require("express");
 const { authenticateRequest } = require("../middlewares/authmiddleware");

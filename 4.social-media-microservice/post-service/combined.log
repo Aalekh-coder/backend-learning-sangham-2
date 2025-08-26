@@ -1,0 +1,4 @@
+{"level":"info","message":"Identity service nunning on port 3002","service":"post-service","timestamp":"2025-08-26T05:01:41.916Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-08-26T05:01:42.811Z"}
+{"level":"info","message":"Identity service nunning on port 3002","service":"post-service","timestamp":"2025-08-26T05:48:52.622Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-08-26T05:48:53.368Z"}

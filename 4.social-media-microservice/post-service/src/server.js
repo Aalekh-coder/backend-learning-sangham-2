@@ -2,12 +2,12 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const Redis = require("ioredis");
-const cors = require("cors");
 const postRoutes = require("./routes/post-routes");
 const errorhandler = require("./middlewares/errorHandler");
 const logger = require("./utils/logger");
 const helmet = require("helmet");
 const cors = require("cors");
+const errorHandler = require("./middlewares/errorHandler");
 
 const app = express();
 const PORT = process.env.PORT;
@@ -31,6 +31,24 @@ app.use((req, res, next) => {
 
 // *** Homework - implement Ip based  rate limiting for sensitive
 
-
 // routes -> pass redis client to routes
-app.use("/api/posts")
+app.use(
+  "/api/posts",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  postRoutes
+);
+
+app.use(errorHandler);
+
+app.listen(PORT, () => {
+  logger.info(`Identity service nunning on port ${PORT}`);
+});
+
+/// unhandled promist rejections
+
+process.on("UnhandledRejection", (reason, promise) => {
+  logger.error("Unhandled Rejection at", promise, "reson:", reason);
+});
