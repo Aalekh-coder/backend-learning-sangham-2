@@ -933,3 +933,17 @@
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-26T05:44:23.781Z"}
 {"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-26T06:10:08.736Z"}
 {"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-26T06:10:09.492Z"}
+{"level":"info","message":"Identity service nunning on port 3001","service":"identity-service","timestamp":"2025-08-28T05:05:19.894Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-08-28T05:05:20.741Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-28T06:34:40.224Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-28T06:34:40.231Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-28T06:34:40.252Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-28T06:36:13.025Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-28T06:36:13.026Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-28T06:36:13.032Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-28T06:36:16.464Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-28T06:36:16.465Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-28T06:36:16.469Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-28T06:48:16.393Z"}
+{"level":"info","message":"Received body [object Object] ","service":"identity-service","timestamp":"2025-08-28T06:48:16.395Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-28T06:48:16.401Z"}

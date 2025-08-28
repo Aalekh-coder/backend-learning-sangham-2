@@ -7,11 +7,10 @@ const authenticateRequest = (req, res, next) => {
     logger.warn(`Access attempted without user ID`);
     return res.status(401).json({
       success: false,
-      message: "Authencation required! Please login to containue",
+      message: "Authencation required! Please login to continue",
     });
   }
   req.user = { userId };
-  l;
   next();
 };
 

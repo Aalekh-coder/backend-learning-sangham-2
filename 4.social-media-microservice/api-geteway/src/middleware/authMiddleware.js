@@ -1,12 +1,12 @@
-const logger = require("../Utils/logger");
 const jwt = require("jsonwebtoken");
+const logger = require("../Utils/logger");
 
 const validateToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
 
   if (!token) {
-    logger.warn("Access attempt withouy valid token!");
+    logger.warn("Access attept without valid token");
     return res.status(401).json({
       message: "Authentication required",
       success: false,
@@ -17,7 +17,7 @@ const validateToken = (req, res, next) => {
     if (err) {
       logger.warn("Invalid token!");
       return res.status(429).json({
-        message: "Invalid token",
+        message: "Invalid token!",
         success: false,
       });
     }
@@ -26,4 +26,5 @@ const validateToken = (req, res, next) => {
     next();
   });
 };
-module.exports = { validateToken };
+
+module.exports =  validateToken;

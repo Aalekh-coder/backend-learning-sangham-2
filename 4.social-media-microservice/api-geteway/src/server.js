@@ -76,7 +76,6 @@ app.use(
 );
 
 //setting up proxy for our post service
-
 app.use(
   "/v1/posts",
   validateToken,
@@ -85,11 +84,12 @@ app.use(
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
       proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-      return proxyReqOpts;
+
+      return proxyReqOpts
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(
-        `Response received from Post service: ${proxyRes?.statusCode}`
+        `Response received from post service: ${proxyRes?.statusCode}`
       );
       return proxyResData;
     },

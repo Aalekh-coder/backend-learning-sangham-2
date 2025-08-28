@@ -2,15 +2,14 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const Redis = require("ioredis");
-const postRoutes = require("./routes/post-routes");
-const errorhandler = require("./middlewares/errorHandler");
-const logger = require("./utils/logger");
-const helmet = require("helmet");
 const cors = require("cors");
+const helmet = require("helmet");
+const postRoutes = require("./routes/post-routes");
 const errorHandler = require("./middlewares/errorHandler");
+const logger = require("./utils/logger");
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3002;
 
 mongoose
   .connect(process.env?.MONGODB_URL)
